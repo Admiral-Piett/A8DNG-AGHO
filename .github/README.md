@@ -16,14 +16,14 @@ source venv/bin/activate
 python src/app.py
 ```
 #### What This Does
-Using the `pyenv` library this will create an environment in a directory called `./venv`.  It will populate it with all 
-the requirements of this app, and all the required environment variables from `app-variables.env` (changes to 
-`app-variables.env` will require another run of `./install.sh` to take effect). 
+Using the `pyenv` library this will create an environment in a directory called `./venv`.  It will populate it with all
+the requirements of this app, and all the required environment variables from `app-variables.env` (changes to
+`app-variables.env` will require another run of `./install.sh` to take effect).
 
 ### Docker
 - Clone repo
-- Make sure `NOCLIST_DOMAIN=http://host.docker.internal:8888` to allow docker to reach your local host, or replace 
-with intended noclist host `app-variables.env`.
+- Make sure `NOCLIST_DOMAIN=http://host.docker.internal:8888` to allow docker to reach your local host, or replace
+  with intended noclist host `app-variables.env`.
 - Run the following:
 ```shell
 cd A8DNG-AGHO
